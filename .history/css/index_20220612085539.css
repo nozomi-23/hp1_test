@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* =================
+header
+===================*/
+header_inner {
+  width: 80%;
+  display: flex;
+}
+.header_right {
+  /* display: table; */
+}
+.header_right li {
+  display: table-cell;
+  writing-mode: vertical-rl;
+}

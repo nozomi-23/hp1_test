@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* =================
+header
+===================*/
+header_inner {
+  display: table;
+
+}
+
+
+}
+.header_list {
+  display: table;
+}
+.header_list li {
+  display: table-cell;
+  writing-mode: vertical-rl;
+}

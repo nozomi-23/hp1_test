@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+  color: #333;
+  letter-spacing: 0.05em;
+  line-height: 1.8;
+
+font-family: 'Noto Sans JP',
+    sans-serif;
+
+
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
