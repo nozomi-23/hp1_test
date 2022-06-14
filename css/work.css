@@ -1,1 +1,58 @@
 @charset "UTF-8";
+.works {
+  width: 77%;
+  height: 100%;
+  margin: 0 auto; 
+}
+.title {
+  margin-top: 15%;
+}
+.bg_txt {
+  position: relative;
+}
+.bg_txt p {
+  position: absolute;
+  top: -17rem;
+  left: 13rem;
+}
+
+.works_item_inner {
+  margin-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+.works_item {
+  width: 45%;
+  height: auto;
+  margin-bottom: 15%;
+  position: relative;
+}
+
+.works_item p {
+  position: absolute;
+  top: 90%;
+  right: 0;
+  padding: 1rem;
+}
+
+.bg_txt_works {
+  position: relative;
+}
+
+.bg_txt_works p {
+  position: absolute;
+  bottom: 40vh;
+  left: 50%;
+  z-index: -1;
+}
+/*  contact*/
+.works_title_contact {
+  margin: unset;
+}
+.contact_wrapper {
+  margin: unset;
+}

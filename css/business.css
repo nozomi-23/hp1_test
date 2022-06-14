@@ -1,1 +1,96 @@
 @charset "UTF-8";
+
+.business_wrapper {
+  width: 77%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 10%;
+}
+.bg_txt_business {
+  position: absolute;
+  bottom: 85%;
+  left: 4%;
+  z-index: -1;
+}
+/* 建設：擬似要素  top_txt */
+.work_1_txt{
+  position: relative;
+}
+.business_work_ttl::after {
+  content: "";
+  width: 60px;
+  height:  5px;
+  display: inline-block;
+  background-color: #0554B0;
+  top: 60px;
+  left: 15px;
+  position: absolute;
+}
+.business_work_1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5%;
+}
+.work_1_txt {
+  background: #F6F4F4;
+  width: 30%;
+  padding: 5% 5%;
+  position: relative;
+}
+.business_work_ttl {
+  position: relative;
+  bottom: 80px;
+  font-size: 2rem;
+  letter-spacing: 1.5rem;
+}
+.work_1_txt p {
+  padding-bottom: 8%;
+}
+.work_1_img {
+  width: 50%;
+}
+.work_1_img img {
+  width: 100%;
+  height: 100%;
+}
+.business_work_2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15%;
+}
+
+/* 私たちの強み */
+.letter {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+}
+.letter_wrapper {
+  position: relative;
+  border: solid 1px;
+  padding: 30% 20%;
+  
+}
+.letter_ttl h2{
+  position: absolute;
+  top: -2rem;
+  left: 0;
+  right: 0;
+  font-size: 2rem;
+  width: 30%;
+  margin: 0 auto;
+  background: #fff;
+  color: #555;
+  font-weight: normal;
+  text-align: center;
+  display: block;
+}
+.letter_txt p{
+  margin-bottom: 20%;
+}
+.letter_txt img {
+  text-align: center;
+}
