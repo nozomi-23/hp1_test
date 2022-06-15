@@ -64,7 +64,9 @@
 }
 
 /* 私たちの強み */
-
+.section {
+  padding-bottom: 0;
+}
 .letter {
   width: 60%;
   height: auto;

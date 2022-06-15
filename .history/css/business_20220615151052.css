@@ -31,7 +31,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 10%;
+  mar-top: 5%;
 }
 .work_1_txt {
   background: #F6F4F4;
@@ -42,7 +42,7 @@
 
 .business_work_ttl {
   position: relative;
-  bottom: 2rem;
+  bottom: 80px;
   font-size: 2rem;
   letter-spacing: 0.8rem;
 }
@@ -64,7 +64,6 @@
 }
 
 /* 私たちの強み */
-
 .letter {
   width: 60%;
   height: auto;

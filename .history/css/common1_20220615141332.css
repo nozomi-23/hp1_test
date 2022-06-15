@@ -6,7 +6,7 @@ body {
   line-height: 1.8;
   font-family: 'Noto Sans JP', sans-serif ,'Noto Serif JP', serif;
   word-break: break-all;
-  font-size: 18px;
+  font-size: 17px;
 }
 li {
   list-style: none;
@@ -163,7 +163,7 @@ contact
 
 .contact_inner {
   text-align: center;
-  width: 55%;
+  width: 40%;
   margin: 5% auto;
   display: flex;
   justify-content: space-around;

@@ -29,6 +29,7 @@ header
 .top_txt {
   text-align: center;
 }
-.top_txt h1 {
+.top_txt h3 {
   font-size: 2rem;
+  padding-bottom: 1em;
 }

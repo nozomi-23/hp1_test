@@ -64,7 +64,9 @@
 }
 
 /* 私たちの強み */
-
+.section {
+  pb
+}
 .letter {
   width: 60%;
   height: auto;

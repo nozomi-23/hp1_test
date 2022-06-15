@@ -6,7 +6,7 @@ body {
   line-height: 1.8;
   font-family: 'Noto Sans JP', sans-serif ,'Noto Serif JP', serif;
   word-break: break-all;
-  font-size: 18px;
+  font-size: 17px;
 }
 li {
   list-style: none;
@@ -81,13 +81,13 @@ header
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 0.8;
   color: #0554B0;
   text-align: center;
 }
 .title small{
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #333;
 }
 /* ボタン */
@@ -163,7 +163,7 @@ contact
 
 .contact_inner {
   text-align: center;
-  width: 55%;
+  width: 40%;
   margin: 5% auto;
   display: flex;
   justify-content: space-around;
